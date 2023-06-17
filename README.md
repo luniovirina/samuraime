@@ -36,7 +36,7 @@ GET /tasks/:frequency
 You can add your own task by sending a POST request to:
 
 ```http
-POST http://localhost:5000/tasks/create
+POST /tasks/create
 ```
 
 The following request body data is required:
